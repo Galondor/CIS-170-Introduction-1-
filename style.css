@@ -114,13 +114,56 @@ nav{
     padding: 0 12px;
 }
 
+.nav__link--list{
+    display: flex;
+ }
+ 
+ .nav__link{
+     margin: 0 12px;
+ }
+ 
+ .nav__link--anchor {
+     font-size: 16px;
+     color: #6C0BA9;
+     font-weight: 700;
+ }
+ 
+ .fa-adjust {
+     font-size: 20px;
+ }
+
+ /* Dark Mode */
+
+ .dark-theme section{
+    background-color: #242424;
+}
+
+.dark-theme footer {
+    background-color: #f8f8f8;
+}
+
+.dark-theme .footer__copyright,
+.dark-theme .footer__social--link,
+.dark-theme .link__hover-effect-white,
+.dark-theme .footer__logo--popper {
+    color: #242424;
+}
+
+.dark-theme h1,
+.dark-theme .about-me__info--para,
+.dark-theme .answer,
+.dark-theme .language__name,
+.dark-theme .fa-adjust {
+    color:#f8f8f8
+}
+
 /* About Me*/
 
 #about-me{
     min-height: 75vh;
     display: flex;
     flex-direction: column;
-    margin-bottom: 64px;
+    padding-bottom: 64px;
 }
 
 .about-me__info{
