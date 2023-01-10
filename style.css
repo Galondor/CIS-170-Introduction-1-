@@ -263,6 +263,10 @@ nav{
 
 /* Questions */
 
+.text--green {
+    color: green; 
+}
+
 .questions__answers--container {
    
 }
@@ -281,7 +285,7 @@ nav{
 
 .answer {
     font-size: 24px;
-    margin-left: 200px;
+    margin-left: 48px;
 }
 
 .question {
